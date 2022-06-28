@@ -227,7 +227,7 @@ def get_model(name, **kwargs):
         kwargs.setdefault('validation_percentage', 0.005)
         kwargs.setdefault('bands', 144)
         kwargs.setdefault('spa_head', 32)
-        kwargs.setdefault('spe_head', 49)
+        kwargs.setdefault('spe_head', 25)
         
     model = ResNet(num_classes=kwargs['n_classes'], channel = kwargs['bands'],
     imgsize=kwargs['patch_size'],spa_head=kwargs['spa_head'],spe_head=kwargs['spe_head'])
