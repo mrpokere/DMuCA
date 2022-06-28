@@ -15,7 +15,6 @@ import visdom
 # 忽略警告
 warnings.filterwarnings("ignore")
 
-
 # 配置项目参数
 parser = argparse.ArgumentParser(description="Run experiments on various hyperspectral datasets")
 
