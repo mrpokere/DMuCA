@@ -3,13 +3,9 @@ from torch.utils import data
 from torchsummary import summary
 import matplotlib.pyplot as plt
 from dataset import get_dataset, HyperX
-import time
-
 from DMuCA import get_model
-
 from train import test, train
-from utils import get_device, sample_gt, compute_imf_weights, metrics, logger, display_dataset, display_goundtruth, \
-    PCA_data
+from utils import get_device, sample_gt, compute_imf_weights, metrics, logger, display_goundtruth
 import argparse
 import numpy as np
 import warnings

@@ -1,0 +1,213 @@
+creating ./logs/logs-2022-06-28IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-06-28:20:57--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2022-06-28IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-06-28:20:57--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Running an experiment with the Model_by_DMuCA model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+Running an experiment with the Model_by_DMuCA model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the Model_by_DMuCA model
+Train dataloader:29
+Validation dataloader:30
+----------Training parameters----------
+dataset:IndianPines
+model:Model_by_DMuCA
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.005
+class_balancing:True
+test_stride:1
+n_classes:17
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+batch_size:32
+validation_percentage:0.1
+bands:200
+spa_head:16
+spe_head:25
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7fcb369f3160>
+supervision:full
+center_pixel:True
+Network :
+----------Training process----------
+Epoch [1/100    avg_loss:1.82, val_acc:0.56]
+Epoch [2/100    avg_loss:1.11, val_acc:0.62]
+Epoch [3/100    avg_loss:0.74, val_acc:0.79]
+Epoch [4/100    avg_loss:0.50, val_acc:0.77]
+Epoch [5/100    avg_loss:0.37, val_acc:0.87]
+Epoch [6/100    avg_loss:0.29, val_acc:0.88]
+Epoch [7/100    avg_loss:0.28, val_acc:0.89]
+Epoch [8/100    avg_loss:0.19, val_acc:0.92]
+Epoch [9/100    avg_loss:0.23, val_acc:0.91]
+Epoch [10/100    avg_loss:0.15, val_acc:0.87]
+Epoch [11/100    avg_loss:0.13, val_acc:0.91]
+Epoch [12/100    avg_loss:0.06, val_acc:0.95]
+Epoch [13/100    avg_loss:0.09, val_acc:0.97]
+Epoch [14/100    avg_loss:0.03, val_acc:0.97]
+Epoch [15/100    avg_loss:0.04, val_acc:0.96]
+Epoch [16/100    avg_loss:0.05, val_acc:0.96]
+Epoch [17/100    avg_loss:0.03, val_acc:0.96]
+Epoch [18/100    avg_loss:0.03, val_acc:0.95]
+Epoch [19/100    avg_loss:0.04, val_acc:0.96]
+Epoch [20/100    avg_loss:0.05, val_acc:0.95]
+Epoch [21/100    avg_loss:0.04, val_acc:0.94]
+Epoch [22/100    avg_loss:0.03, val_acc:0.96]
+Epoch [23/100    avg_loss:0.01, val_acc:0.97]
+Epoch [24/100    avg_loss:0.02, val_acc:0.97]
+Epoch [25/100    avg_loss:0.01, val_acc:0.97]
+Epoch [26/100    avg_loss:0.01, val_acc:0.96]
+Epoch [27/100    avg_loss:0.01, val_acc:0.97]
+Epoch [28/100    avg_loss:0.01, val_acc:0.97]
+Epoch [29/100    avg_loss:0.00, val_acc:0.98]
+Epoch [30/100    avg_loss:0.03, val_acc:0.96]
+Epoch [31/100    avg_loss:0.01, val_acc:0.97]
+Epoch [32/100    avg_loss:0.02, val_acc:0.97]
+Epoch [33/100    avg_loss:0.02, val_acc:0.98]
+Epoch [34/100    avg_loss:0.01, val_acc:0.97]
+Epoch [35/100    avg_loss:0.01, val_acc:0.98]
+Epoch [36/100    avg_loss:0.03, val_acc:0.97]
+Epoch [37/100    avg_loss:0.01, val_acc:0.97]
+Epoch [38/100    avg_loss:0.00, val_acc:0.98]
+Epoch [39/100    avg_loss:0.01, val_acc:0.97]
+Epoch [40/100    avg_loss:0.01, val_acc:0.98]
+Epoch [41/100    avg_loss:0.00, val_acc:0.98]
+Epoch [42/100    avg_loss:0.00, val_acc:0.98]
+Epoch [43/100    avg_loss:0.00, val_acc:0.98]
+Epoch [44/100    avg_loss:0.00, val_acc:0.98]
+Epoch [45/100    avg_loss:0.00, val_acc:0.98]
+Epoch [46/100    avg_loss:0.00, val_acc:0.98]
+Epoch [47/100    avg_loss:0.00, val_acc:0.98]
+Epoch [48/100    avg_loss:0.00, val_acc:0.98]
+Epoch [49/100    avg_loss:0.01, val_acc:0.98]
+Epoch [50/100    avg_loss:0.00, val_acc:0.98]
+Epoch [51/100    avg_loss:0.00, val_acc:0.98]
+Epoch [52/100    avg_loss:0.00, val_acc:0.98]
+Epoch [53/100    avg_loss:0.00, val_acc:0.98]
+Epoch [54/100    avg_loss:0.00, val_acc:0.97]
+Epoch [55/100    avg_loss:0.01, val_acc:0.97]
+Epoch [56/100    avg_loss:0.02, val_acc:0.96]
+Epoch [57/100    avg_loss:0.01, val_acc:0.98]
+Epoch [58/100    avg_loss:0.01, val_acc:0.97]
+Epoch [59/100    avg_loss:0.01, val_acc:0.98]
+Epoch [60/100    avg_loss:0.01, val_acc:0.97]
+Epoch [61/100    avg_loss:0.01, val_acc:0.96]
+Epoch [62/100    avg_loss:0.00, val_acc:0.97]
+Epoch [63/100    avg_loss:0.00, val_acc:0.97]
+Epoch [64/100    avg_loss:0.00, val_acc:0.97]
+Epoch [65/100    avg_loss:0.00, val_acc:0.98]
+Epoch [66/100    avg_loss:0.01, val_acc:0.97]
+Epoch [67/100    avg_loss:0.00, val_acc:0.98]
+Epoch [68/100    avg_loss:0.00, val_acc:0.98]
+Epoch [69/100    avg_loss:0.00, val_acc:0.98]
+Epoch [70/100    avg_loss:0.00, val_acc:0.98]
+Epoch [71/100    avg_loss:0.00, val_acc:0.98]
+Epoch [72/100    avg_loss:0.00, val_acc:0.98]
+Epoch [73/100    avg_loss:0.00, val_acc:0.98]
+Epoch [74/100    avg_loss:0.00, val_acc:0.98]
+Epoch [75/100    avg_loss:0.01, val_acc:0.97]
+Epoch [76/100    avg_loss:0.00, val_acc:0.97]
+Epoch [77/100    avg_loss:0.01, val_acc:0.97]
+Epoch [78/100    avg_loss:0.00, val_acc:0.97]
+Epoch [79/100    avg_loss:0.00, val_acc:0.98]
+Epoch [80/100    avg_loss:0.00, val_acc:0.98]
+Epoch [81/100    avg_loss:0.00, val_acc:0.98]
+Epoch [82/100    avg_loss:0.00, val_acc:0.98]
+Epoch [83/100    avg_loss:0.00, val_acc:0.98]
+Epoch [84/100    avg_loss:0.00, val_acc:0.98]
+Epoch [85/100    avg_loss:0.00, val_acc:0.98]
+Epoch [86/100    avg_loss:0.00, val_acc:0.98]
+Epoch [87/100    avg_loss:0.00, val_acc:0.98]
+Epoch [88/100    avg_loss:0.00, val_acc:0.98]
+Epoch [89/100    avg_loss:0.00, val_acc:0.98]
+Epoch [90/100    avg_loss:0.00, val_acc:0.98]
+Epoch [91/100    avg_loss:0.00, val_acc:0.98]
+Epoch [92/100    avg_loss:0.00, val_acc:0.98]
+Epoch [93/100    avg_loss:0.00, val_acc:0.98]
+Epoch [94/100    avg_loss:0.00, val_acc:0.98]
+Epoch [95/100    avg_loss:0.00, val_acc:0.98]
+Epoch [96/100    avg_loss:0.00, val_acc:0.98]
+Epoch [97/100    avg_loss:0.00, val_acc:0.98]
+Epoch [98/100    avg_loss:0.00, val_acc:0.98]
+Epoch [99/100    avg_loss:0.00, val_acc:0.97]
+Epoch [100/100    avg_loss:0.00, val_acc:0.97]
+----------Training result----------
+
+Confusion matrix:
+[[   0    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0]
+ [   0   32    0    0    0    0    0    0    9    0    0    0    0    0
+     0    0    0]
+ [   0    5 1256    0    0    0    0    0    0    0   13   11    0    0
+     0    0    0]
+ [   0    0    5  707    1    0    0    0    0    6    0    0   28    0
+     0    0    0]
+ [   0    0    0    3  198    0    0    0    0    0    0    0   11    0
+     1    0    0]
+ [   0    0    0    0    0  433    0    0    0    0    0    0    0    0
+     2    0    0]
+ [   0    0    0    0    0    0  654    0    0    0    0    0    0    0
+     3    0    0]
+ [   0    0    0    0    0    0    0   25    0    0    0    0    0    0
+     0    0    0]
+ [   0    0    0    0    0    0    0    0  430    0    0    0    0    0
+     0    0    0]
+ [   0    0    0    0    0    2    1    0    0   15    0    0    0    0
+     0    0    0]
+ [   0    1    9    0    0    1    0    0    0    0  848    2    0    0
+     6    8    0]
+ [   0    0   12    0    0    1    1    0    0    0   20 2173    0    0
+     2    1    0]
+ [   0    0    0    1    0    0    0    0    0    0   28    0  483    0
+     3    3   16]
+ [   0    0    0    0    0    1    0    0    0    0    0    0    0  184
+     0    0    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0
+  1135    4    0]
+ [   0    0    0    0    0    0   11    0    0    0    0    0    0    0
+    75  261    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0   84]]
+
+Accuracy:
+96.6721
+
+F1 scores:
+[   nan 0.8101 0.9786 0.9698 0.9612 0.992  0.9879 1.     0.9896 0.7692
+ 0.9507 0.9886 0.9148 0.9973 0.9594 0.8365 0.913 ]
+
+Kappa:
+0.9620
+dataset:IndianPines
+['81.01+-0.0' '97.86+-0.0' '96.98+-0.0' '96.12+-0.0' '99.2+-0.0'
+ '98.79+-0.0' '100.0+-0.0' '98.96+-0.0' '76.92+-0.0' '95.07+-0.0'
+ '98.86+-0.0' '91.48+-0.0' '99.73+-0.0' '95.94+-0.0' '83.65+-0.0'
+ '91.3+-0.0']
+OA_list [[96.67208672]]
+OA±std 96.67 ±0.00
