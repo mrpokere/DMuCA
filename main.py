@@ -30,10 +30,10 @@ parser.add_argument('--dataset', type=str, default='IndianPines',
                          "Houston"
                          "IndianPines"
                          )
-parser.add_argument('--model', type=str, default='Model_by_COA',
+parser.add_argument('--model', type=str, default='Model_by_DMuCA',
                     help="Model to train.")
 
-parser.add_argument('--folder', type=str, default='../dataset/',
+parser.add_argument('--folder', type=str, default='./dataset/',
                     help="Folder where to store the "
                          "datasets (defaults to the current working directory).")
 parser.add_argument('--cuda', type=int, default=0,
